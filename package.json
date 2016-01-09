@@ -1,0 +1,33 @@
+{
+  "name": "linkydink",
+  "description": "Link contents of a folder to another folder cautiously",
+  "version": "1.0.0",
+  "author": "Bret Comnes <bcomnes@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/bcomnes/linkydink/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/bcomnes/linkydink",
+  "keywords": [
+    "dotfiles",
+    "streams2",
+    "symlink"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcomnes/linkydink.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js | tap-spec && standard"
+  },
+  "dependencies": {
+    "from2-array": "0.0.4",
+    "through2": "^2.0.0"
+  }
+}
