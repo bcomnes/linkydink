@@ -1,5 +1,7 @@
 # linkydink
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bcomnes/linkydink.svg)](https://greenkeeper.io/)
+
 [![npm][npm-image]][npm-url]
 [![travis][travis-image]][travis-url]
 [![standard][standard-image]][standard-url]
